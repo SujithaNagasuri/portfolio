@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.para {
+  font-weight: 222;
+  font-size: 0.8rem;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+}
+
+.tabs-section {
+  height: 100vh;
+  position: fixed;
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tabs-section .nav-link {
+  position: relative;
+}
+.tabs-section .nav-link:hover::after {
+  width: 25%;
+}
+.tabs-section .nav-link:hover::before {
+  width: 25%;
+}
+.tabs-section .nav-link::after {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 0;
+  height: 1px;
+  bottom: 5px;
+  left: 50%;
+  border-radius: 5px;
+  transition: width 0.5s linear;
+}
+.tabs-section .nav-link::before {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 0;
+  height: 1px;
+  bottom: 5px;
+  right: 50%;
+  border-radius: 5px;
+  transition: width 0.5s linear;
+}
+
+.img {
+  width: 70%;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+.content {
+  width: 100%;
+}
+.content .home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1286-768x512.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.content .home-intro h1 {
+  font-size: 4rem;
+  font-weight: 555;
+}
+.content .home-intro h2 {
+  font-size: 3rem;
+  font-weight: 444;
+}
+.content .home-intro .para {
+  font-size: 1.5rem;
+}
+.content .home-intro .btn {
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+}
+.content .home-img {
+  height: 80vh;
+  border-radius: 5rem;
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+}
+
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://cdn.pixabay.com/photo/2014/08/01/00/08/trees-407256_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about h2 {
+  font-weight: 888;
+}
+.about .about-img {
+  height: 60vh;
+  border-radius: 5rem;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
+}
+
+.Education {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://freenaturestock.com/wp-content/uploads/freenaturestock-1583-768x512.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Education h2 {
+  font-weight: 888;
+}
+.Education p {
+  font-weight: 111;
+  font-size: 0.8rem;
+}
+.Education .accordion-button {
+  background: #CFE2FF;
+}
+.Education .accordion-body {
+  color: white;
+}
+.Education .quote {
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+}
+
+.skills {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills p {
+  font-weight: 111;
+  font-size: 0.8rem;
+}
+.skills .progress {
+  height: 0.7rem;
+}
+
+.projects {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.projects .card-img-top {
+  height: 11rem;
+}
+.projects .card-text {
+  font-size: 12px;
+}
+
+.Certifications {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://freenaturestock.com/wp-content/uploads/freenaturestock-2204-1024x683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.Certifications img {
+  width: 20rem;
+  margin-right: 2rem;
+}
+
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2021/09/27/10/22/daisy-6660244_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact form {
+  box-shadow: 0 5px 1rem rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=style.css.map */
